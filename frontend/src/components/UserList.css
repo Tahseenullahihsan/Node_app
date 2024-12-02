@@ -1,0 +1,168 @@
+/* General Container */
+.user-list-container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    color: #4A90E2;
+  }
+  
+  .logout-btn {
+    background-color: #E94E77;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #D03561;
+  }
+  
+  /* User List Styling */
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .user-icon {
+    font-size: 40px;
+    color: #4A90E2;
+    margin-right: 20px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .user-email {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  /* Amplifier Section Styling */
+.amplifiers-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  .amplifiers-section h2 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .amplifiers-section h2 .react-icons {
+    margin-right: 10px; /* Add space between icon and title */
+  }
+  
+  /* Amplifier List Styling */
+  .amplifier-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .amplifier-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .amplifier-item:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Icon Styling */
+  .amplifier-icon {
+    font-size: 40px;
+    color: #ff6347; /* A bright color for the icon */
+  }
+  
+  /* Amplifier Details Styling */
+  .amplifier-details {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .amplifier-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .amplifier-brand,
+  .amplifier-price,
+  .amplifier-quantity {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .amplifier-price {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .amplifier-quantity {
+    color: #ff6347;
+  }
+  .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4caf50;
+    font-size: 18px;
+  }
+  
+  
